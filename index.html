@@ -1,0 +1,65 @@
+<html>
+<head>
+   
+    
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div class="home-page  ">
+        <div class="container  ">
+            <div class="home-page  text-center     w-100 shadow-lg  mx-auto  ">
+                <h1   class=" p-5  text-white  "> Smart Login System </h1>
+                <input type="mail"  placeholder="Enter your email" id="userMail"  class="form-control  text-white  bg-transparent   m-3  ">
+                <input type="password"  placeholder="Enter your password"  id="userPass" class="form-control  text-white  bg-transparent m-3 ">
+               <p    id="incorrectPass"   class="alert alert-danger font-weight-bold  d-none   py-2 "> incorrect email or password </p>
+                <button   id="login" class="form-control btn btn-outline-info   m-3 ">Login</button>
+                <p class="d-inline  text-white  p-1"  > Don't have an account?   </p  >
+                  <a  id="signup" class="text-white  p-1" >Sign Up </a>
+                 
+             
+            </div>
+        </div>
+    </div>
+
+ <div class="login-page d-none"> 
+  
+     <div class="container">
+        <div class="nav w-100 d-flex justify-content-between  shadow-lg   align-items-center">
+            <div class="div">
+                <h2 class="text-white py-3  px-3  ">Smart Login</h2>
+            </div>
+          <div class="div">
+            <button   id="logout"  class="btn btn-outline-warning  ">logout </button>
+          </div>
+        </div>
+     </div>
+<div class="content">
+<div class="container   w-50 mx-auto ">
+         <div class="boxx  p-5 m-5  shadow-lg   text-center">
+            <h2  id="w-name"  class="text-info "> Welcome clint </h2>
+         </div>
+</div>
+</div>
+</div> 
+
+<div class="sign-up-page   text-center  d-none ">
+    <div class="box   w-50 shadow-lg  mx-auto  ">
+        <h1   class=" p-5"> Smart Login System </h1>
+        <input type="text"  placeholder="Enter your Name" id="userName"  class="form-control  text-white  bg-transparent  m-3  ">
+        <input type="email"  placeholder="Enter your Email" id="userMailInp"  class="form-control  text-white bg-transparent  m-3  ">
+        <input type="password"  placeholder="Enter your password"  id="userPassInp" class=" bg-transparent  text-white form-control m-3 ">
+            <p  id="success"   class="text-success  py-2 d-none " > success</p>
+        <button   id="signBtn" class="form-control btn btn-outline-info   m-3" >Sign Up</button>
+        <p  class="text-white p-1"> Don't have an account? 
+            <a class="text-white" href="">Signin</a>
+        </p>
+     
+    </div>
+</div> 
+
+
+    <script src="main.js"></script>
+</body>
+</html>

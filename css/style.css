@@ -1,0 +1,20 @@
+
+ body
+ {
+   background-color: #24353f; 
+   font-family: 'Segoe UI light' ;
+ }
+ 
+ h1
+ {
+     color: #17a2b8;
+ }
+
+ a{
+     text-decoration: none;
+ }
+.incorrectPass
+{
+  text-align: center !important;
+  display: inline !important;
+}
